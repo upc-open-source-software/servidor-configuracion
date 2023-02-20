@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "33de6691-58a2-462d-b507-49c501e3818b",
+		"name": "Instituto Config Server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6041738"
+	},
+	"item": [
+		{
+			"name": "Test Microservicio alumno",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/microservicio-alumno/default",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"microservicio-alumno",
+						"default"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
